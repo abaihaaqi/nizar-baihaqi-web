@@ -18,7 +18,7 @@ export default function Home() {
         id="top"
         className="h-screen flex flex-col items-center justify-center"
       >
-        <h1 className="text-9xl mb-5 text-center text-yellow-400">
+        <h1 className="text-4xl lg:text-9xl mb-5 text-center text-yellow-400">
           Nizar Baihaqi
         </h1>
         <h2 className="text-2xl mb-5 font-medium">Web Developer</h2>
