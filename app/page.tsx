@@ -7,6 +7,7 @@ import ProjectCard from "../components/ProjectCard";
 import BlogImage from "../public/blog-homepage.png";
 import BushiImage from "../public/bushi-homepage.png";
 import RancangImage from "../public/rancang-creative.png";
+import RRQImage from "../public/rrq-homepage.png";
 
 export default function Home() {
   return (
@@ -38,21 +39,24 @@ export default function Home() {
           desc="I post my assignment here 😂"
           link="https://blog.nizarbaihaqi.com"
           img={BlogImage}
-          clicked={false}
         />
         <ProjectCard
           title="Bushi Computer"
           desc="A computer repair shop"
           link="https://bushi.nizarbaihaqi.com"
           img={BushiImage}
-          clicked={true}
         />
         <ProjectCard
           title="Rancang Creative"
           desc="Social Media Agency"
           link="https://rancang-creative.vercel.app"
           img={RancangImage}
-          clicked={false}
+        />
+        <ProjectCard
+          title="RRQ Landing Page Clone"
+          desc="E-Sports Team"
+          link="https://rrq-landing-page.vercel.app"
+          img={RRQImage}
         />
       </div>
 
